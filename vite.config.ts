@@ -15,4 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/Killerfrost/', // IMPORTANT: Set the correct base path for GitHub Pages
 }));
